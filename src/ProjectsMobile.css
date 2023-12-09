@@ -35,7 +35,7 @@
 /* Mobile Styles */
 @media (max-width: 600px) {
   .project-item {
-    width: 80%; /* Adjust as needed */
+    width: 100%; 
     margin: 0 auto;
   }
 

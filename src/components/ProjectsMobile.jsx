@@ -19,7 +19,7 @@ const ProjectsMobile = () => {
         <img onClick={(e) => handleClick(e, "ChatApp")} id="ChatApp" src={image1} alt="Project 1" className="project-img" />
         {selectedProject === "ChatApp" && (
           <div className="project-details">
-            <p className="project-description">The "Chatty Cat" chat app is my favorite of my latest projects because of how fun it was to put the backend, mongoDB database, and the frontend together to make something great!</p>
+            <p className="project-description">The creation of the 'Chatty Cat' chat app stands out as a personal favorite among my recent projects. This endeavor brought together the intricacies of backend development, MongoDB database management, and frontend design, resulting in a cohesive and enjoyable user experience. The process of seamlessly integrating these components to craft a robust and interactive application was not only fulfilling but also showcased my ability to orchestrate the synergy of diverse technologies. 'Chatty Cat' represents the epitome of my passion for creating dynamic and engaging digital solutions.</p>
             <button onClick={() => window.open("https://github.com/Crochoir/chatty-cats", '_blank')}>View Source Code</button>
           </div>
         )}
@@ -28,7 +28,7 @@ const ProjectsMobile = () => {
         <img onClick={(e) => handleClick(e, "SpotifyApp")} id="SpotifyApp" src={image2} alt="Project 2" className="project-img" />
         {selectedProject === "SpotifyApp" && (
           <div className="project-details">
-            <p className="project-description">Spotify App was a great way for me to practice with outside API calls, and all the idiosynchrocies that come with it.</p>
+            <p className="project-description">The development of the Spotify App provided me with a valuable opportunity to hone my skills in working with external APIs. This project served as an immersive learning experience, allowing me to navigate the intricacies associated with interfacing with external data sources. Handling the idiosyncrasies inherent in such API calls strengthened my ability to troubleshoot and address challenges effectively. Through this endeavor, I not only expanded my technical proficiency but also gained practical insights into the nuances of integrating third-party services into applications.</p>
             <button onClick={() => window.open("https://github.com/Crochoir/SpotifyReact", "_blank")}>View Source Code</button>
           </div>
         )}
@@ -37,7 +37,7 @@ const ProjectsMobile = () => {
         <img onClick={(e) => handleClick(e, "SnakeGame")} id="SnakeGame" src={image3} alt="Project 3" className="project-img" />
         {selectedProject === "SnakeGame" && (
           <div className="project-details">
-            <p className="project-description">C# snake game. This was my first real coding project. Being new to programming in general, this one took a long time in visual studio using C#, and a lot of googling.  </p>
+            <p className="project-description">Developed a C# Snake Game, marking a significant milestone as my inaugural coding project. As an entry-level programmer, this endeavor required an extensive duration within the Visual Studio environment, utilizing C# for implementation. The process involved meticulous problem-solving and a considerable amount of research on various programming concepts. This undertaking not only honed my coding skills but also served as a foundational experience in navigating complex development tasks. Despite the challenges encountered, the completion of this project stands testament to my commitment to learning and my ability to overcome coding hurdles.  </p>
             <button onClick={() => window.open("https://github.com/Crochoir/snake-game-files","_blank")}>View Source Code</button>
           </div>
         )}
