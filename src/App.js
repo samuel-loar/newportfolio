@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Projects from './components/Projects';
 import SplashPage from './SplashPage';
 import ProjectsMobile from './components/ProjectsMobile';
+import Exp from "./components/Experience";
 import "./index.css";
 import './ProjectsMobile.css';
 
@@ -40,6 +41,7 @@ const App = () => {
           <ProjectsMobile />
         </div>
       )}
+      <Exp />
       <div>
         <Footer />
       </div>

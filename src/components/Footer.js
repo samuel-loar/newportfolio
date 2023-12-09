@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Footer = () => {
+const date = new Date().getFullYear();
   return (
     <footer style={styles.footer}>
-      <p>&copy; 2023 Your Company</p>
+      <p>&copy; {date} Samuel</p>
       <div style={styles.socialLinks}>
         <a href="https://github.com/Crochoir" target="_blank" rel="noopener noreferrer">
           GitHub

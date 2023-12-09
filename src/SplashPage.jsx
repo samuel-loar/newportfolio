@@ -18,8 +18,8 @@ const SplashPage = () => {
       <div className={"background-animation"}></div>
       <div className="content">
         <h1>Sam Loar</h1>
-        <p>Web Developer & Designer</p>
-        <a href="#portfolio" onClick={handleScrollToProjects}>View Portfolio</a>
+        <p>Web Developer/Designer</p>
+        <a href="#portfolio" onClick={handleScrollToProjects}>Enter Portfolio</a>
       </div>
     </div>
   );
