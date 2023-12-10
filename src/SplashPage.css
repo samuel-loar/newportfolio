@@ -41,13 +41,15 @@ html {
   }
   
   .splash-page h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 10px;
+    font-weight: 700;
   }
   
   .splash-page p {
     font-size: 1.5em;
     margin-bottom: 20px;
+    font-weight: 500;
   }
   
   .splash-page a {

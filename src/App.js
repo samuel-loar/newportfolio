@@ -41,7 +41,9 @@ const App = () => {
           <ProjectsMobile />
         </div>
       )}
-      <Exp />
+      <div id="experience">
+       <Exp />
+      </div>
       <div>
         <Footer />
       </div>

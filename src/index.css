@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-size: 16px;
   background-color:aliceblue;
+  font-family: 'monospace';
 }
 
 .app {
@@ -35,6 +36,14 @@ body {
   background-color: #2c3e50; 
 }
 
+.exp-div{
+  margin: 20px;
+  padding: 0;
+  border-top-style:outset;
+  border-top-width: 2px;
+  border-top-color:#2c3e50;
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -62,3 +71,37 @@ body {
     width: 100%; /* Adjust as needed */
   }
 }
+
+.section.top {
+  opacity:0;
+  transform: translateX(100px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.section.middle {
+  opacity: 0;
+  transform: translateX(200px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.section.bottom {
+  opacity: 0;
+  transform: translateX(300px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.section.top.slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.section.middle.slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.section.bottom.slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
