@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import SplashPage from './SplashPage';
 import ProjectsMobile from './components/ProjectsMobile';
 import Exp from "./components/Experience";
+import About from "./components/About";
 import "./index.css";
 import './ProjectsMobile.css';
 
@@ -41,8 +42,11 @@ const App = () => {
           <ProjectsMobile />
         </div>
       )}
-      <div id="experience">
+      <div id="exp-div">
        <Exp />
+      </div>
+      <div>
+        <About />
       </div>
       <div>
         <Footer />

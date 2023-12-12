@@ -10,11 +10,12 @@ body {
 }
 
 .carousel-img {
-  width: 400px;
+  width: 600px;
   justify-self: center;
 }
 
 .projects-div {
+  margin-top: 10%;
   width: 80%;
   position: relative;
   left: 10%;
@@ -36,12 +37,17 @@ body {
   background-color: #2c3e50; 
 }
 
-.exp-div{
-  margin: 20px;
+#exp-div{
+  color:aliceblue;
   padding: 0;
   border-top-style:outset;
   border-top-width: 2px;
   border-top-color:#2c3e50;
+  margin: 10% 15% 20px;
+  background-color: #2c3e50;
+  height: auto;
+  border-radius: 75px;
+  padding: 5%;
 }
 
 
@@ -49,6 +55,17 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     font-size: 14px;
+  }
+
+  .company-name, .job-title, .job-description {
+    text-align: center;
+}
+
+  #exp-div{
+    margin: 0;
+    border-radius: 0;
+    padding: 0 0 10px 0;
+    height: fit-content;
   }
 
 }
@@ -72,22 +89,40 @@ body {
   }
 }
 
+.company-name {
+  color: #336699;
+}
+
+.job-title {
+  color: #336699;
+  margin-top: 10px;
+}
+
+.job-description {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+
 .section.top {
   opacity:0;
   transform: translateX(100px);
   transition: opacity 0.8s, transform 0.8s;
+  margin: 0 10% 20px;
 }
 
 .section.middle {
   opacity: 0;
   transform: translateX(200px);
   transition: opacity 0.8s, transform 0.8s;
+  margin: 0 10% 20px;
 }
 
 .section.bottom {
   opacity: 0;
   transform: translateX(300px);
   transition: opacity 0.8s, transform 0.8s;
+  margin: 0 10% 20px;
 }
 
 .section.top.slide-in {
@@ -105,3 +140,8 @@ body {
   transform: translateX(0);
 }
 
+.experience {
+  margin: 0 10% 20px;
+  background-color: #2c3e50;
+  height: 100vh;
+}

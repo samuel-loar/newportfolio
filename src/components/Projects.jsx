@@ -16,7 +16,7 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel  activeIndex={index} onSelect={handleSelect}>
+    <Carousel  activeIndex={index} onSelect={handleSelect} indicators={false}>
       <Carousel.Item style={{"textAlign": "center"}}>
         <img 
             src={image1}

@@ -32,13 +32,20 @@ function Header() {
   }
 
   function handleScrollToExp() {
-    const projectsDiv = document.getElementById('experience');
+    const projectsDiv = document.getElementById('exp-div');
   
     if (projectsDiv) {
       projectsDiv.scrollIntoView({ behavior: 'smooth' });
     }
   }
 
+  function handleScrollToContact() {
+    const projectsDiv = document.getElementById('exp-div');
+  
+    if (projectsDiv) {
+      projectsDiv.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
   return (
     <AppBar position="sticky">
@@ -125,6 +132,8 @@ function Header() {
                     handleScrollToExp()
                   } else if(page === "Projects") {
                     handleScrollToProjects()
+                  } else if(page === "Contact Links"){
+                    handleScrollToContact()
                   }
                 }}
                 sx={{ my: 2, color: 'white', display: 'block' }}
