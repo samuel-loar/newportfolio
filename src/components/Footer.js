@@ -1,4 +1,6 @@
 import React from 'react';
+import { Github, Linkedin } from 'react-bootstrap-icons';
+
 
 const Footer = () => {
 const date = new Date().getFullYear();
@@ -6,12 +8,11 @@ const date = new Date().getFullYear();
     <footer style={styles.footer}>
       <p>&copy; {date} Samuel</p>
       <div style={styles.socialLinks}>
-        <a href="https://github.com/Crochoir" target="_blank" rel="noopener noreferrer">
-          GitHub
+        <a style={styles.socialLink1} href="https://github.com/Crochoir" target="_blank" rel="noopener noreferrer">
+          <Github />
         </a>
-        <br/>
-        <a href="https://www.linkedin.com/in/samuel-loar-565a95241/" target="_blank" rel="noopener noreferrer">
-          LinkedIn
+        <a style={styles.socialLink2} href="https://www.linkedin.com/in/samuel-loar-565a95241/" target="_blank" rel="noopener noreferrer">
+          <Linkedin />
         </a>
       </div>
     </footer>
@@ -31,13 +32,21 @@ const styles = {
   paddingTop: '20px'
   },
   socialLinks: {
+    display: 'inline-block',
     marginTop: '10px',
+    marginBottom: '10px',
+    paddingBottom: '10px',
+    fontSize: '1.5em'
   },
-  socialLink: {
-    color: '#fff',
-    marginRight: '10px',
+  socialLink1: {
+    color: 'aliceblue',
+    paddingRight: '10px',
     textDecoration: 'none',
   },
+  socialLink2: {
+    color: 'aliceblue',
+    textDecoration: 'none'
+  }
 };
 
 export default Footer;

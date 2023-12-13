@@ -64,7 +64,7 @@ const Exp = () => {
       >
         <h2>Microtronix Esolutions</h2>
         <h3>IT Maintenance Technician/Software Developer</h3>
-        <p>My IT Maintenance Technician role at this company includes network installation/configuration, server installation/maintenance and much more that there is simply not enough room here for. As a software developer, I've been able to hone my skills on projects using several different tools such as: React.js, php, joomla, the cordova mobile framework, simple Python scripts, and some SQL query writing</p>
+        <p>My IT Maintenance Technician role at this company includes network installation/configuration, server installation/maintenance and much more that there is simply not enough room here for. As a software developer, I've been able to hone my skills on projects using several different tools such as: React.js, php, joomla, the cordova mobile framework, Python, and some SQL query writing</p>
       </section>
 
       <section
@@ -73,7 +73,7 @@ const Exp = () => {
       >
         <h2>Aldi</h2>
         <h3>Assistant Store Manager</h3>
-        <p>until the beginning of 2023, i had started taking up a leadership position at Aldi as an Assistant Store Manager. in this role I was able to build up habits of project management, healthy leadership, and other responsibilities that, while not directly in the programming realm, I believe taught me many skills that I can carry on with me for the rest of my life</p>
+        <p>until the beginning of 2023, I had taken up a leadership position at Aldi as an Assistant Store Manager. in this role I was able to build up habits of project management, healthy leadership, and other responsibilities that, while not directly in the programming realm, I believe taught me many skills that I can carry on with me for the rest of my life</p>
       </section>
 
       <section

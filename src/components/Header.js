@@ -99,7 +99,15 @@ function Header() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem key={page} onClick={() =>{
+                  if(page === "Exp"){
+                    handleScrollToExp()
+                  } else if(page === "Projects") {
+                    handleScrollToProjects()
+                  } else if(page === "Contact Links"){
+                    handleScrollToContact()
+                  }
+                }}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
