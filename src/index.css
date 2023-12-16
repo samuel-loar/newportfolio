@@ -17,7 +17,7 @@ body::before {
   height: 100%;
   z-index: -1;
   background: linear-gradient(45deg, #3498db, #1abc9c, #9b59b6, #e74c3c );
-  background-size: 400% 400%;
+  background-size: 500% 500%;
   animation: complementaryAnimation 10s ease infinite;
 }
 
@@ -104,6 +104,7 @@ body::before {
 .text-container {
   max-width: 600px;
   text-align: center;
+  color: aliceblue;
 }
 
 
@@ -223,4 +224,13 @@ body::before {
   margin: 0 10% 20px;
   background-color: #2c3e50;
   height: 100vh;
+}
+
+
+.self-contained-quote{
+  background-color: aliceblue;
+  border-radius: 25px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
