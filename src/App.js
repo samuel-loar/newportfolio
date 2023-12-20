@@ -6,6 +6,7 @@ import SplashPage from './SplashPage';
 import ProjectsMobile from './components/ProjectsMobile';
 import Exp from "./components/Experience";
 import About from "./components/About";
+import SendEmail from './components/sendEmail';
 import "./index.css";
 import './ProjectsMobile.css';
 
@@ -47,6 +48,9 @@ const App = () => {
       </div>
       <div>
         <About />
+      </div>
+      <div className="email-div" style={{"text-align": "center"}}>
+        <SendEmail />
       </div>
       <div>
         <Footer />

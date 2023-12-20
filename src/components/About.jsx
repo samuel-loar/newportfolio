@@ -15,12 +15,10 @@ const About = (props) => {
      <h2>Who am I?</h2>
      <hr style={{"borderTop": "1px solid white"}} />
      <h3>
-       My name is Sam, and I love becoming <u>more:</u> 
+      I'm Sam, and I have a genuine love for self-development.
      </h3>
      <p>
-          I'm {myAge} years old, I'm married with one son, and I've been learning software engineering for quite a while now. It hasn't been easy, but if there's anything that can be said about my experience, it's that I have made myself dedicated.
-          At my core, I am hopelessly, irretrievably drawn toward the pursuit of improvement and the application of knowledge. 2022-2023 has been some of the hardest years as someone enterring into the tech atmosphere, and yet, I feel more dedicated than ever to reaching higher. 
-     </p>
+      I'm {myAge} years old, married with one son, and I've been immersed in software engineering for a while. It's been challenging, but I've only become more dedicated. At my core, I'm driven by a passion for progress and the application of knowledge. Despite the difficulties entering the tech industry in 2022-2023, I continue reaching for high goals.</p>
    </div>
    <div className="self-contained-quote">
     <h4>
@@ -31,8 +29,9 @@ const About = (props) => {
    <div className="text-container">
       <h2>What can I do?</h2>
       <p>
-          first things first: I can <u>use</u> frameworks, libraries, even newer tools still in their genesis; but I am not a 'frameworker', nor a 'librarian', or a subject worshipping at the proverbial feet of new technology. I am a programmer, and I'm continuing to travel further down this long and winding road.
-          I have used plenty of programming languages that I've found particularly interesting. including, but not limited to:
+        At the core of my expertise lies a dynamic proficiency in leveraging frameworks, libraries, and emerging tools, adapting swiftly to the ever-evolving landscape of technology. However, I do not confine myself to being a mere 'frameworker' or 'librarian,' nor do I blindly follow the latest trends. 
+        Instead, I strive to be a more seasoned traditional software developer, committed to the continuous exploration of my craft.
+        Throughout my journey, I have demonstrated proficiency in numerous programming languages, each selected based on its relevance to the task at hand. Some notable languages I have worked with include, but are not limited to:
       </p>
       <p>
         --Python-- <br />
