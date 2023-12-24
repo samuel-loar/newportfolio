@@ -142,12 +142,19 @@ body::before {
     width: 100%;
   }
 
+  .email-div{
+    margin: 0 20px;
+  }
  
 
   .projects-div {
     margin-top: 5%; 
     width: 90%; 
     left: 5%;
+  }
+
+  .self-contained-quote{
+    margin: 20px 0 50px;
   }
 
 }
