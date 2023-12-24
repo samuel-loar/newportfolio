@@ -49,6 +49,7 @@ body::before {
   left: 10%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  z-index: 2;
 }
 
 .carousel-control-prev-icon,
@@ -72,10 +73,10 @@ body::before {
   border-top-width: 2px;
   border-top-color:#2c3e50;
   margin: 10% 15% 20px;
+  padding: 5%;
   background-color: #2c3e50;
   height: auto;
   border-radius: 75px;
-  padding: 5%;
 }
 
 /*about section */
@@ -136,18 +137,17 @@ body::before {
   .text-container {
     padding: 0 5px;
   }
-
-  .self-contained-quote {
-    padding: 5px; 
-  }
-
   .email-btn {
     display: block;
     width: 100%;
   }
 
-  .email-div {
-    margin: 0 5% 20px; 
+ 
+
+  .projects-div {
+    margin-top: 5%; 
+    width: 90%; 
+    left: 5%;
   }
 
 }
@@ -246,12 +246,11 @@ body::before {
   background-color: aliceblue;
   border-radius: 25px;
   padding: 5px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin: 20px 30% 50px;
 }
 
 .email-div {
-  margin: 0 10% 20px;
+  margin: 0 38% 20px;
   padding: 20px; 
   border-radius: 25px;
   background-color: aliceblue;
