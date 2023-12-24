@@ -111,6 +111,43 @@ body::before {
   color: #333333;
 }
 
+.email-div {
+  margin: 0 38% 20px;
+  padding: 20px; 
+  border-radius: 25px;
+  background-color: aliceblue;
+}
+
+.email-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.email-btn:hover {
+  background-color: #2980b9;
+}
+
+.email-btn::after {
+  content: '\2192'; 
+  margin-left: 8px;
+}
+
+
+.self-contained-quote{
+  background-color: aliceblue;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 20px 30% 50px;
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -142,10 +179,6 @@ body::before {
     width: 100%;
   }
 
-  .email-div{
-    margin: 0 20px;
-  }
- 
 
   .projects-div {
     margin-top: 5%; 
@@ -155,6 +188,10 @@ body::before {
 
   .self-contained-quote{
     margin: 20px 0 50px;
+  }
+
+  .email-div {
+    margin: 0 10% 20px;
   }
 
 }
@@ -187,7 +224,7 @@ body::before {
   }
 
   .email-div {
-    margin: 0 20% 20px;
+    margin: 0 0 20px;
   }
 }
 
@@ -248,39 +285,3 @@ body::before {
   height: 100vh;
 }
 
-
-.self-contained-quote{
-  background-color: aliceblue;
-  border-radius: 25px;
-  padding: 5px;
-  margin: 20px 30% 50px;
-}
-
-.email-div {
-  margin: 0 38% 20px;
-  padding: 20px; 
-  border-radius: 25px;
-  background-color: aliceblue;
-}
-
-.email-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: aliceblue;
-  text-decoration: none;
-  border-radius: 25px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  font-family: 'Arial', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.email-btn:hover {
-  background-color: #2980b9;
-}
-
-.email-btn::after {
-  content: '\2192'; 
-  margin-left: 8px;
-}
