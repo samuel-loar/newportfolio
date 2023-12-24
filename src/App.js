@@ -49,7 +49,7 @@ const App = () => {
       <div>
         <About />
       </div>
-      <div className="email-div" style={{"text-align": "center"}}>
+      <div id="contact" className="email-div" style={{"text-align": "center"}}>
         <SendEmail />
       </div>
       <div>

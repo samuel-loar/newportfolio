@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages = ["Projects", 'Exp', 'Contact Links'];
+const pages = ["Projects", 'Exp', 'Contact'];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -40,7 +40,7 @@ function Header() {
   }
 
   function handleScrollToContact() {
-    const projectsDiv = document.getElementById('exp-div');
+    const projectsDiv = document.getElementById('contact');
   
     if (projectsDiv) {
       projectsDiv.scrollIntoView({ behavior: 'smooth' });
@@ -104,7 +104,7 @@ function Header() {
                     handleScrollToExp()
                   } else if(page === "Projects") {
                     handleScrollToProjects()
-                  } else if(page === "Contact Links"){
+                  } else if(page === "Contact"){
                     handleScrollToContact()
                   }
                 }}>
@@ -140,7 +140,7 @@ function Header() {
                     handleScrollToExp()
                   } else if(page === "Projects") {
                     handleScrollToProjects()
-                  } else if(page === "Contact Links"){
+                  } else if(page === "Contact"){
                     handleScrollToContact()
                   }
                 }}
