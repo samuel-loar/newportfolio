@@ -1,7 +1,10 @@
 import React, { useState } from 'react'; // Import your CSS file for styling
+import { ChatSquare } from 'react-bootstrap-icons';
+import { FaSpotify } from 'react-icons/fa';
 
-const image1 = require('./blog-shot.png');
-const image2 = require('./ReactAppImg-modified.png');
+
+//const image1 = require('./blog-shot.png');
+//const image2 = require('./ReactAppImg-modified.png');
 const image3 = require('./snakegame-shot-modified (1).png');
 
 const ProjectsMobile = () => {
@@ -16,7 +19,8 @@ const ProjectsMobile = () => {
     <div className="projects-mobile">
       <h1>My Favorite Personal Projects</h1>
       <div className={`project-item ${selectedProject ? 'selected' : ''}`}>
-        <img onClick={(e) => handleClick(e, "ChatApp")} id="ChatApp" src={image1} alt="Project 1" className="project-img" />
+        <ChatSquare onClick={(e) => handleClick(e, "ChatApp")} id="ChatApp" alt="Project 1" className="project-img"  size={200} color="aliceblue"/>
+        <h4>Chatty-Cats</h4>
         {selectedProject === "ChatApp" && (
           <div className="project-details">
             <p className="project-description">The creation of the 'Chatty Cat' chat app stands out as a personal favorite among my recent projects. This endeavor brought together the intricacies of backend development, MongoDB database management, and frontend design, resulting in a cohesive and enjoyable user experience. The process of seamlessly integrating these components to craft a robust and interactive application was not only fulfilling but also showcased my ability to orchestrate the synergy of diverse technologies. 'Chatty Cat' represents the epitome of my passion for creating dynamic and engaging digital solutions.</p>
@@ -25,7 +29,7 @@ const ProjectsMobile = () => {
         )}
       </div>
       <div className={`project-item ${selectedProject ? 'selected' : ''}`}>
-        <img onClick={(e) => handleClick(e, "SpotifyApp")} id="SpotifyApp" src={image2} alt="Project 2" className="project-img" />
+        <FaSpotify onClick={(e) => handleClick(e, "SpotifyApp")} id="SpotifyApp"  alt="Project 2" className="project-img" size={200} color="aliceblue"/>
         {selectedProject === "SpotifyApp" && (
           <div className="project-details">
             <p className="project-description">The development of the Spotify App provided me with a valuable opportunity to hone my skills in working with external APIs. This project served as an immersive learning experience, allowing me to navigate the intricacies associated with interfacing with external data sources. Handling the idiosyncrasies inherent in such API calls strengthened my ability to troubleshoot and address challenges effectively. Through this endeavor, I not only expanded my technical proficiency but also gained practical insights into the nuances of integrating third-party services into applications.</p>
