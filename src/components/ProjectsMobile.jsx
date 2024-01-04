@@ -1,6 +1,7 @@
 import React, { useState } from 'react'; // Import your CSS file for styling
 import { ChatSquare } from 'react-bootstrap-icons';
 import { FaSpotify } from 'react-icons/fa';
+import { FaCode } from 'react-icons/fa';
 
 
 //const image1 = require('./blog-shot.png');
@@ -38,7 +39,7 @@ const ProjectsMobile = () => {
         )}
       </div>
       <div className={`project-item ${selectedProject ? 'selected' : ''}`}>
-        <img onClick={(e) => handleClick(e, "SnakeGame")} id="SnakeGame" src={image3} alt="Project 3" className="project-img" />
+        <FaCode onClick={(e) => handleClick(e, "SnakeGame")} id="SnakeGame" alt="Project 3" className="project-img" size={200} color="aliceblue"/>
         {selectedProject === "SnakeGame" && (
           <div className="project-details">
             <p className="project-description">Developed a C# Snake Game, marking a significant milestone as my inaugural coding project. As an entry-level programmer, this endeavor required an extensive duration within the Visual Studio environment, utilizing C# for implementation. The process involved meticulous problem-solving and a considerable amount of research on various programming concepts. This undertaking not only honed my coding skills but also served as a foundational experience in navigating complex development tasks. Despite the challenges encountered, the completion of this project stands testament to my commitment to learning and my ability to overcome coding hurdles.  </p>

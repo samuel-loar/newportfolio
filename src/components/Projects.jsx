@@ -1,46 +1,61 @@
+// CollapsibleCards.js
+import React, { useState } from 'react';
+import '../Projects.css'; 
+import { ChatSquare } from 'react-bootstrap-icons';
+import { FaSpotify, FaCode } from 'react-icons/fa';
 
-import React,  { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+const CollapsibleCard = ({ title, icon, content }) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-//import Img from './Img'
-const image1 = require( './blog-shot.png');
-const image2 = require('./ReactAppImg-modified.png')
-const image3 = require('./snakegame-shot-modified (1).png')
-
-
-function ControlledCarousel() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
+  const toggleCard = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <Carousel  activeIndex={index} onSelect={handleSelect} indicators={false}>
-      <Carousel.Item style={{"textAlign": "center"}}>
-        <img 
-            src={image1}
-            alt="trying"
-            className={"carousel-img"}
-        />
-      </Carousel.Item>
-      <Carousel.Item style={{"textAlign": "center"}}>
-      <img 
-            src={image2}
-            alt="trying"
-            className={"carousel-img"}
-        />
-      </Carousel.Item>
-      <Carousel.Item style={{"textAlign": "center"}}>
-        <img 
-            src={image3}
-            alt="trying"
-            className={"carousel-img"}
-        />
-      </Carousel.Item>
-    </Carousel>
+    <div className={`collapsible-card ${isOpen ? 'open' : ''}`}>
+      <div className={`card-header ${isOpen ? 'open' : ''}`} onClick={toggleCard}>
+        {icon} {title}
+      </div>
+      {isOpen && (
+        <div className="card-content">
+          {content}
+        </div>
+      )}
+    </div>
   );
-}
+};
 
+const CollapsibleCards = () => {
+  const cardData = [
+    {
+      title: 'Card 1',
+      icon: <ChatSquare />,
+      content: 'Content for Card 1 goes here.',
+    },
+    {
+      title: 'Card 2',
+      icon: <FaSpotify />,
+      content: 'Content for Card 2 goes here.',
+    },
+    {
+      title: 'Card 3',
+      icon: <FaCode />,
+      content: 'Content for Card 3 goes here.',
+    },
+  ];
 
-export default ControlledCarousel;
+  return (
+    <div className="collapsible-cards-container">
+      {cardData.map((card, index) => (
+        <CollapsibleCard
+          key={index}
+          title={card.title}
+          icon={card.icon}
+          content={card.content}
+        />
+      ))}
+    </div>
+  );
+};
+
+export default CollapsibleCards;

@@ -17,10 +17,16 @@ html {
   .background-animation {
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 40%;
     background: linear-gradient(-45deg, #3498db, #2980b9, #2c3e50, #34495e);
     background-size: 500% 500%;
     animation: gradientAnimation 15s ease infinite;
+  }
+
+  @media (max-width: 600px) {
+    .background-animation{
+      height: 52%;
+    }
   }
 
   .content {
