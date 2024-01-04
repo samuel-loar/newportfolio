@@ -36,7 +36,8 @@ const App = () => {
       <SplashPage />
       {showProjects ? (
         <div id="portfolio" className="projects-div">
-          <CollapsibleCards />
+          {//<CollapsibleCards />
+          }
         </div>
       ) : (
         <div id="portfolio" className="projects-div">
