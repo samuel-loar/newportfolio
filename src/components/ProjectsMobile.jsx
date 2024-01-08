@@ -6,7 +6,6 @@ import { FaCode } from 'react-icons/fa';
 
 //const image1 = require('./blog-shot.png');
 //const image2 = require('./ReactAppImg-modified.png');
-const image3 = require('./snakegame-shot-modified (1).png');
 
 const ProjectsMobile = () => {
   const [selectedProject, setSelectedProject] = useState(null);

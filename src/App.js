@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Header from './components/Header'
 import Footer from './components/Footer'
-import CollapsibleCards from './components/Projects';
+import ProjectCarousel from './components/Projects';
 import SplashPage from './SplashPage';
 import ProjectsMobile from './components/ProjectsMobile';
 import Exp from "./components/Experience";
@@ -32,11 +32,11 @@ const App = () => {
   }, []);
   return (
     <div className={"app"}>
-      <Header />
+      <Header style={{'fontSize': "20px"}}/>
       <SplashPage />
       {showProjects ? (
         <div id="portfolio" className="projects-div">
-          {//<CollapsibleCards />
+          {<ProjectCarousel />
           }
         </div>
       ) : (

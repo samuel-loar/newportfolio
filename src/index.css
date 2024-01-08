@@ -286,3 +286,6 @@ body::before {
   height: 100vh;
 }
 
+#portfolio {
+  height: 200px;
+}
