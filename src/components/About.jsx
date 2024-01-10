@@ -12,7 +12,7 @@ const About = (props) => {
      <img src={fallPic} alt="Sarah and I" />
    </div>
    <div className="text-container">
-     <h2>Who am I?</h2>
+     <h2>Who am I?</h2> 
      <hr style={{"borderTop": "1px solid white"}} />
      <h3>
       I'm Sam, and I have a genuine love for self-development.
@@ -42,8 +42,8 @@ const About = (props) => {
        I've created the most projects in Javascript, and the popular framework: React.js as these were what much of my early learning came with.
       </p>
       <p>
-          At my work I've been introduced to so much more in the IT world. Network managements and server management has broadened the ways I have thought about software and things like web management and cloud computing.
-          I've gone from using Windows for everything, to becoming comfortable under the hood of the Linux OS. Even going as far as using a raspberry pi with linux OS to host a website from home. I don't claim to be some technological prodigy, but I am commited to learning and doing more.
+          At my work I've been introduced to so much more in the IT world. Network management and server management has broadened the ways I have thought about software as well things like web and cloud computing.
+          I've gone from using Windows for everything, to becoming comfortable under the hood of the Linux OS. Even going as far as using a raspberry pi with linux OS to host a website from home. 
       </p>
    </div>
  </div>

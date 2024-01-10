@@ -1,7 +1,6 @@
 import React, { useState } from 'react'; // Import your CSS file for styling
 import { ChatSquare } from 'react-bootstrap-icons';
 import { FaSpotify } from 'react-icons/fa';
-import { FaCode } from 'react-icons/fa';
 
 
 //const image1 = require('./blog-shot.png');
