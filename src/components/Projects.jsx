@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css'; 
 import { ChatSquare } from 'react-bootstrap-icons';
 import { FaSpotify } from 'react-icons/fa';
-//import { FaCode } from 'react-icons/fa';
+import { FaCode } from 'react-icons/fa';
 
 
 class ProjectCarousel extends React.Component {
@@ -63,6 +63,15 @@ class ProjectCarousel extends React.Component {
           </div>
           <div className="card-back">
             <p>Creating the 'Chatty Cat' app, a recent favorite project, involved blending backend development and MongoDB management. The integration demonstrates my ability to coordinate diverse technologies</p>
+          </div>
+        </div>
+
+        <div className="project-card" onClick={() => this.openProject('project4')}>
+          <div className="card-front">
+            <FaCode size={100}/>
+          </div>
+          <div className="card-back">
+            <p>Monkey language is a simple interpreter from a book by Thorsten Ball that parses and evaluates a custom scripting language with variables, arithmetic, and control structures, showcasing skills in lexer, parser, and AST design.</p>
           </div>
         </div>
       </div>
