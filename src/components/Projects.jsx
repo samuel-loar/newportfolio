@@ -8,11 +8,11 @@ import { FaCode } from 'react-icons/fa';
 class ProjectCarousel extends React.Component {
   openProject(projectName) {
     if(projectName === 'project1'){
-        window.open("https://github.com/Crochoir/SpotifyReact", "_blank")
+        window.open("https://github.com/samuel-loar/SpotifyReact", "_blank")
     } else if (projectName === 'project3'){
-        window.open("https://github.com/Crochoir/chatty-cats", '_blank')
-    } else {
-        window.open("https://github.com/Crochoir", '_blank')
+        window.open("https://github.com/samuel-loar/chatty-cats", '_blank')
+    } else if (projectName === 'project4'){
+        window.open("https://github.com/samuel-loar/monkeyProj", '_blank')
     }
   }
 
